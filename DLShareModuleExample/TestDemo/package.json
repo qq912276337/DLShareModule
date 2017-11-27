@@ -8,8 +8,7 @@
 	},
 	"dependencies": {
 		"react": "16.0.0",
-		"react-native": "0.50.4",
-		"react-native-dlsharemoduleios": "^1.0.5"
+		"react-native": "0.50.4"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
