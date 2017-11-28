@@ -1,0 +1,34 @@
+{
+  "name": "DLShareModuleIOS",
+  "version": "0.1.0",
+  "summary": "A short description of DLShareModuleIOSDevelop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qq912276337/DLShareModuleIOSDevelop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qq912276337": "smlsjq@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qq912276337/DLShareModuleIOSDevelop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "lib/ios/DLShareModuleIOSDevelop/DLShareModuleIOSDevelop/Classes/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "DLShareLib": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
+}

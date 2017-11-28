@@ -18,20 +18,15 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
+import DLShareModuleIOS from '@ecool/react-native-dlsharemodule';
 
 export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+
+        {DLShareModuleIOS.registerShareModule({'weixin':'123456','qq':'12345678'})}
+        {DLShareModuleIOS.shareText('123',()=>{})}
       </View>
     );
   }
