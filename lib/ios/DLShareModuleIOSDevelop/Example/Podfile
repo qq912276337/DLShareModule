@@ -8,7 +8,7 @@ platform :ios, '9.0'
 
 
 target 'DLShareModuleIOSDevelop_Example' do
-  pod 'DLShareModuleIOSDevelop', :path => '../../../../'
+  pod 'DLShareModuleIOS', :path => '../../../../'
   pod 'React', :path => '../../../../node_modules/react-native', :subspecs => [
   'Core',
   'DevSupport', # 如果RN版本 >= 0.43，则需要加入此行才能开启开发者菜单

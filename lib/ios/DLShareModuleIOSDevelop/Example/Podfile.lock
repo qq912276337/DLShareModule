@@ -1,7 +1,7 @@
 PODS:
   - DLShareLib (0.4.9):
     - Masonry
-  - DLShareModuleIOSDevelop (0.1.0):
+  - DLShareModuleIOS (0.1.0):
     - DLShareLib
     - Masonry
     - SDWebImage
@@ -34,7 +34,7 @@ PODS:
   - yoga (0.50.4.React)
 
 DEPENDENCIES:
-  - DLShareModuleIOSDevelop (from `../../../../`)
+  - DLShareModuleIOS (from `../../../../`)
   - React/BatchedBridge (from `../../../../node_modules/react-native`)
   - React/Core (from `../../../../node_modules/react-native`)
   - React/DevSupport (from `../../../../node_modules/react-native`)
@@ -44,7 +44,7 @@ DEPENDENCIES:
   - yoga (from `../../../../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
-  DLShareModuleIOSDevelop:
+  DLShareModuleIOS:
     :path: ../../../../
   React:
     :path: ../../../../node_modules/react-native
@@ -53,12 +53,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DLShareLib: a7d39ace6a0a79360d2681efb53e8db169eaf64a
-  DLShareModuleIOSDevelop: 7cc515e2d7d093cabcb13fef216f093a1cae4f7c
+  DLShareModuleIOS: 8b67632717a6e399935dd7d01a1924f10c7a793a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   React: 6d7efef18e0241eb832cf4c085405169a15080ed
   SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   yoga: b9aebf996711e50fc31f5608c10aa108a5a0c29e
 
-PODFILE CHECKSUM: 2e68b739dd3b68a2d929832ca6fbc0dedde0a0cb
+PODFILE CHECKSUM: 355decd9c8e8bb76deaaafe40db1743800d04a3e
 
 COCOAPODS: 1.3.1

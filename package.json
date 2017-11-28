@@ -1,6 +1,6 @@
 {
-  "name": "react-native-dlsharemoduleios",
-  "version": "1.0.7",
+  "name": "@ecool/react-native-dlsharemodule",
+  "version": "1.0.0",
   "description": "https://github.com/qq912276337/DLShareModule.git",
   "main": "index.js",
   "directories": {

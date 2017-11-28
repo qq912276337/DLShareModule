@@ -1,0 +1,1 @@
+../../../../DLShareLib/DLShareLib/TencentQQ/TencentOpenAPI.framework/Headers/sdkdef.h

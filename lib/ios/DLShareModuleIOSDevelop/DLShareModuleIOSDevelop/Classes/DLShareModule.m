@@ -23,7 +23,7 @@ static NSInteger const kMaxNumberOfItems = 9;
 @end
 @implementation DLShareModule
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(DLShareModuleIOS);
 
 /**
  * 注册分享模块
